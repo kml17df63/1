@@ -1,0 +1,154 @@
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
+
+  html {
+    font-size: 16px;
+  }
+
+  .fs-21 {
+    font-size: 1em;
+  }
+
+  .container {
+    max-width: 1140px;
+
+    .header {
+
+      .sticky {
+        width: 1140px;
+      }
+
+      .header-main  {
+        background-size: auto;
+      }
+    }
+
+    .tidings .tidings-content {
+        flex-wrap: wrap;
+
+      .tidings-content__item {
+        height: 600px;
+        width: min-content;
+        margin: 20px auto;
+
+        .article-title {
+          height: 70px;
+        }
+      }
+    }
+
+    .news {
+
+      .article-title {
+        font-size: 1.3em;
+
+      }
+    }
+
+    .send-button__arrow__blue,
+    .send-button__arrow {
+      width: 50px;
+      height: 50px;
+    }
+
+    .button-send-orange {
+      height: 50px;
+    }
+
+    .gallery {
+      .gallery-content {
+        height: 650px;
+
+        .gallery-content__button {
+          width: 300px;
+        }
+
+        .gallery-content__item {
+          margin: 0 15px 15px 0;
+        }
+      }
+    }
+
+    .contacts {
+
+      background-position: top left 35%;
+
+      .contacts-item__part2 {
+
+        .contacts-form {
+          margin-left: 100px;
+
+          .contacts-form__item {
+            height: 50px;
+            width: 700px;
+
+            .contacts-form__name-img,
+            .contacts-form__surname-img,
+            .contacts-form__phone-img {
+
+              height: 50px;
+
+              .contacts-form__name-img:after,
+              .contacts-form__surname-img:after,
+              .contacts-form__phone-img:after {
+                height: 30px;
+              }
+            }
+          }
+
+          .contacts-submit__button {
+            width: 650px;
+          }
+        }
+      }
+
+    }
+
+    .schedule .schedule-wrap .schedule-item {
+      width: 160px;
+    }
+
+    .services .services-articles__item .services-articles__img > span {
+      padding: 0 20px 20px 20px;
+    }
+
+
+  }
+  .footer {
+    max-width: 1140px;
+
+    .footer__content {
+      padding: 50px 40px 50px 40px;
+    }
+
+    .logo-img > img {
+      width: 85%;
+    }
+    .map-site__list {
+      padding-right: 10px;
+    }
+
+    .footer__social > span {
+      margin-bottom: 20px;
+
+      .social-logo {
+        width: 360px;
+
+      }
+    }
+  }
+
+
+  .contacts-map__1440 {
+    display: block;
+  }
+
+  .contacts-map__1920,
+  .contacts-map__1200,
+  .contacts-map__992,
+  .contacts-map__768,
+  .contacts-map__576,
+  .contacts-map__mini,
+  .contacts-map__4k {
+    display: none;
+  }
+}

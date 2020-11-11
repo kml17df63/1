@@ -1,0 +1,39 @@
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 13px;
+  }
+
+  .footer {
+    max-width: 720px;
+  }
+  .footer .map-site__list {
+    padding-right: 0;
+  }
+  .footer .logo-img {
+    margin-right: 0;
+  }
+
+  .contacts-item__part2 .contacts-form {
+    width: auto;
+  }
+
+  .contacts-map__768 {
+    display: block;
+  }
+
+  .reports .reports-content {
+    width: 100%;
+  }
+
+  .contacts-map__1920,
+.contacts-map__1440,
+.contacts-map__1200,
+.contacts-map__4k,
+.contacts-map__992,
+.contacts-map__576,
+.contacts-map__mini {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=768.css.map */

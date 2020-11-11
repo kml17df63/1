@@ -1,0 +1,98 @@
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+
+  html {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 1400px;
+
+    .sticky {
+      width: 1400px;
+    }
+
+
+    .gallery {
+
+      .gallery-content {
+
+        height: 850px;
+
+        .gallery-content__item {
+          width: calc(33% - 10px);
+          margin: 0 10px 10px 0;
+          background-size: cover;
+
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .tidings {
+
+      .tidings-content {
+        width: 100%;
+        flex-wrap: wrap;
+
+        .tidings-content__item {
+          margin: 0 20px 50px 0;
+          width: calc(33% - 20px);
+        }
+
+        &:nth-child(3n) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .contacts {
+
+      background: url("img/contacts-bg__var1.png") no-repeat right 65% center;
+
+      .contacts-item__part2 {
+
+        .contacts-form {
+          margin-left: 170px;
+
+          .contacts-form__surname-img:after,
+          .contacts-form__name-img:after,
+          .contacts-form__phone-img:after {
+            height: inherit;
+            right: 0;
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+      .footer {
+        max-width: 1400px;
+
+        &__content {
+          padding: 30px 15px 60px 15px;
+
+          .logo-img {
+            padding-right: 15px;
+          }
+        }
+      }
+
+
+
+    .contacts-map__1920 {
+      display: block;
+    }
+
+
+    .contacts-map__1440,
+    .contacts-map__1200,
+    .contacts-map__992,
+    .contacts-map__768,
+    .contacts-map__576,
+    .contacts-map__mini,
+    .contacts-map__4k {
+      display: none;
+    }
+}

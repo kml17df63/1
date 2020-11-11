@@ -1,0 +1,73 @@
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 1400px;
+  }
+  .container .sticky {
+    width: 1400px;
+  }
+  .container .gallery .gallery-content {
+    height: 850px;
+  }
+  .container .gallery .gallery-content .gallery-content__item {
+    width: calc(33% - 10px);
+    margin: 0 10px 10px 0;
+    background-size: cover;
+  }
+  .container .gallery .gallery-content .gallery-content__item:nth-child(3n) {
+    margin-right: 0;
+  }
+  .container .tidings .tidings-content {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .container .tidings .tidings-content .tidings-content__item {
+    margin: 0 20px 50px 0;
+    width: calc(33% - 20px);
+  }
+  .container .tidings .tidings-content:nth-child(3n) {
+    margin-right: 0;
+  }
+  .container .contacts {
+    background: url("img/contacts-bg__var1.png") no-repeat right 65% center;
+  }
+  .container .contacts .contacts-item__part2 .contacts-form {
+    margin-left: 170px;
+  }
+  .container .contacts .contacts-item__part2 .contacts-form .contacts-form__surname-img:after,
+.container .contacts .contacts-item__part2 .contacts-form .contacts-form__name-img:after,
+.container .contacts .contacts-item__part2 .contacts-form .contacts-form__phone-img:after {
+    height: inherit;
+    right: 0;
+    top: 0;
+  }
+
+  .footer {
+    max-width: 1400px;
+  }
+  .footer__content {
+    padding: 30px 15px 60px 15px;
+  }
+  .footer__content .logo-img {
+    padding-right: 15px;
+  }
+
+  .contacts-map__1920 {
+    display: block;
+  }
+
+  .contacts-map__1440,
+.contacts-map__1200,
+.contacts-map__992,
+.contacts-map__768,
+.contacts-map__576,
+.contacts-map__mini,
+.contacts-map__4k {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=1900.css.map */

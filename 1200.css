@@ -1,0 +1,137 @@
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  html {
+    font-size: 13px;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+  .container section {
+    padding: 30px 60px;
+  }
+  .container .button-send-orange {
+    width: 250px;
+    height: 50px;
+  }
+  .container .send-button__arrow {
+    width: 50px;
+    height: 50px;
+  }
+  .container .header .sticky {
+    width: 960px;
+  }
+  .container .header .header-main {
+    height: 130px;
+  }
+  .container .header .header-main__logo {
+    background-size: contain;
+  }
+  .container .services .services-articles__item .services-articles__img {
+    height: 250px;
+    overflow: hidden;
+  }
+  .container .services .services-articles__item .services-articles__img span > h3 {
+    padding: 20px 0;
+  }
+  .container .services .services-articles__item .article-caption > span {
+    padding: 3px 3px;
+  }
+  .container .services .services-articles__item > a {
+    width: 250px;
+  }
+  .container .tariffs .tariffs-content .tariffs-content__img {
+    height: 450px;
+  }
+  .container .gallery .gallery-content__item {
+    width: 46%;
+    height: auto;
+  }
+  .container .gallery .gallery-content__item:nth-child(3n) {
+    margin-right: 30px;
+  }
+  .container .gallery .gallery-content__item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .container .gallery .gallery-content .gallery-content__button {
+    width: 200px;
+  }
+  .container .reports .reports-content .reports-content__partition {
+    width: 95%;
+    align-self: center;
+    padding: 60px 0;
+  }
+  .container .reports .reports-content .reports-content__downloads {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .container .tidings .tidings-content {
+    flex-wrap: wrap;
+  }
+  .container .tidings .tidings-content .tidings-content__item {
+    height: 520px;
+    width: 46%;
+  }
+  .container .tidings .tidings-content .tidings-content__item .article-title {
+    height: auto;
+  }
+  .container .contacts {
+    background-position: center;
+  }
+  .container .contacts .contacts-item__part2 .contacts-form {
+    width: auto;
+    margin-left: 75px;
+  }
+  .container .contacts .contacts-item__part2 .contacts-form .contacts-submit {
+    width: 550px;
+  }
+  .container .contacts .contacts-item__part2 .contacts-form .contacts-form__item {
+    width: 550px;
+    height: 50px;
+  }
+  .container .contacts .contacts-item__part2 .contacts-form .contacts-form__item .contacts-form__name-img:after,
+.container .contacts .contacts-item__part2 .contacts-form .contacts-form__item .contacts-form__surname-img:after,
+.container .contacts .contacts-item__part2 .contacts-form .contacts-form__item .contacts-form__phone-img:after {
+    height: 30px;
+  }
+  .container .schedule .schedule-wrap .schedule-item {
+    width: 130px;
+    height: 220px;
+  }
+  .container .reports .reports-content .reports-content__downloads .reports-view {
+    height: 60px;
+  }
+  .container .reports .reports-content .reports-content__downloads .reports-download {
+    width: 120px;
+    height: 60px;
+  }
+
+  .footer .logo-img {
+    margin-right: 10px;
+  }
+  .footer .footer__social .social-logo {
+    width: 270px;
+  }
+  .footer .footer__social .social-logo .social-logo__img {
+    width: 50px;
+    height: 50px;
+  }
+  .footer .footer__social .social-logo .social-logo__img > img {
+    padding-top: 10px;
+  }
+
+  .contacts-map__1200 {
+    display: block;
+  }
+
+  .contacts-map__1920,
+.contacts-map__1440,
+.contacts-map__992,
+.contacts-map__768,
+.contacts-map__576,
+.contacts-map__mini,
+.contacts-map__4k {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=1200.css.map */
